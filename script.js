@@ -12,6 +12,13 @@ const fetchAllPlayers = async () => {
         console.error('Uh oh, trouble fetching players!', err);
     }
 };
+const removePlayer = async (playerId) => {
+    try {
+        await fetch(`${APIURL}players/${playerId}`, { method: 'DELETE' });
+    } catch (err) {
+        console.error(`Whoops, trouble removing player #${playerId} from the roster!`, err);
+    };
+    
 const renderAllPlayers = (playerList) => {
     try {
         let playerContainerHTML = playerList.map(player => `
