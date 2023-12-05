@@ -29,7 +29,7 @@ const {
     });
   
     it('removes a player successfully', async () => {
-      const playerId = 1; // Assuming there is a player with ID 1 in your API
+      const playerId = any;
       await removePlayer(playerId);
       // You might want to fetch all players and ensure the player is removed
       const players = await fetchAllPlayers();
@@ -46,12 +46,11 @@ const {
       ];
       const container = document.createElement('div');
       renderAllPlayers(playerList, container);
-      // Add assertions based on the rendered HTML structure
     });
   
     it('renders new player form correctly', () => {
       const container = document.createElement('div');
       renderNewPlayerForm(container);
-      // Add assertions based on the rendered HTML structure
     });
   });
+  
