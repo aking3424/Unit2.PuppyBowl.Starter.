@@ -43,4 +43,4 @@ Contributions to the Puppy Bowl project are encouraged. Please adhere to standar
 
 Contributors
 Stephen Carouthers (@sjcarouthers)
-Andrew King (@andaking3424)
+Andrew King (@aking3424)
